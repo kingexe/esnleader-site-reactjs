@@ -1,0 +1,100 @@
+.nav {
+    display: flex;
+    height: 68px;
+    color: white;
+    min-height: 68px;
+    font-size: 14px;
+    align-items: center;
+    background: #FFCC33;
+}
+
+.nav a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+
+.nav .nav-home {
+    padding: 0px 16px;
+}
+
+.nav .nav-home a {
+    font-size: 24px;
+}
+
+.nav .nav-logo {
+    width: 136px;
+    padding: 20px 24px;
+    text-align: center;
+}
+
+.nav .nav-menu {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    
+}
+
+.nav .nav-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: left;
+    display: block;
+    height: 100%;
+    line-height: 64px;
+     
+    box-sizing: border-box;
+    padding: 0 16px;
+    margin: 0 24px;
+    position: relative;
+    
+}
+
+.nav .nav-menu a:before{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    height: 5px;
+    background: #945BE6;
+    display: block;
+    width:0;
+    transition: All 0.2s linear;
+}
+
+.nav .nav-menu a:hover:before{
+    width: 100%;
+}
+
+
+.nav .nav-menu a:hover {
+     
+    font-weight: bold;
+}
+
+.nav .nav-menu a.active {
+     
+    font-weight: bold;
+}
+
+.nav .nav-menu a.active:before{
+    width: 100%;
+}
+
+.nav .nav-profil {
+    margin-right: 32px;
+}
+.nav .nav-profil a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav .nav-profil i{
+    font-size: 7px;
+}

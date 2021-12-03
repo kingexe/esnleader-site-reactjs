@@ -1,0 +1,46 @@
+.layout{
+    display: flex;
+    
+    &.horizontal{
+        flex-direction: row;
+    }
+    &.vertical{
+        flex-direction: column;
+    }
+    &.height-20 {
+        height: 20px;
+    }
+}
+
+.flex{
+    flex: 1;
+    
+    &.none{
+        flex: none;
+    }
+    
+    &.one{
+        flex: 1;
+    }
+    &.tow{
+        flex: 2;
+    }
+    &.three{
+        flex: 3;
+    }
+}
+
+.content{
+    min-height: calc(100vh - 64px);
+    background: #fbeeed;
+    padding: 24px;
+    padding-top: 88px;
+    overflow: auto;
+    position: relative;
+    z-index: 0;
+
+    .h-divider{
+        height: 24px;
+    }
+    
+}

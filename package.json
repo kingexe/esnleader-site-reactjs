@@ -1,0 +1,72 @@
+{
+  "name": "esnleader",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@mui/icons-material": "^5.1.1",
+    "@mui/material": "^5.1.1",
+    "@mui/styled-engine-sc": "^5.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.1.2",
+    "acorn": "^7.1.1",
+    "axios": "^0.19.2",
+    "bootstrap": "5.1.3",
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "git-init": "^1.0.0",
+    "material-ui": "^0.20.2",
+    "moment": "^2.24.0",
+    "node-gyp": "^6.1.0",
+    "node-sass": "^4.13.1",
+    "react": "^17.0.0",
+    "react-bootstrap": "^2.0.2",
+    "react-dom": "^17.0.0",
+    "react-redux": "^7.2.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@storybook/addon-actions": "^5.3.17",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/addons": "^5.3.17",
+    "@storybook/react": "^5.3.17",
+    "addon-redux": "^1.1.0"
+  },
+  "main": ".server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
